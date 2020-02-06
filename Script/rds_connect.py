@@ -4,7 +4,7 @@ from mysql.connector import Error
 #input connector here - once running on ec2 configure IAM w/ login
 #or just go direct? seems unsafe
 try:
-    connection = mysql.connector.connect(host='citibike-1.c2xlx7fqjbps.us-east-1.rds.amazonaws.com',
+    connection = mysql.connector.connect(host='hostname',
                                          database='citibike-1',
                                          user='eitan',
                                          password='CitiBike1')

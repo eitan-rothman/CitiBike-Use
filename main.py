@@ -28,6 +28,6 @@ def main():
 	x = mycol.insert_many(final_system) 
 
 	mycol = mydb["StatusData"] #insert infor for status
-	x = mycol.insert_many(status_data) 
+	x = mycol.insert_many(final_status) 
 
 main()

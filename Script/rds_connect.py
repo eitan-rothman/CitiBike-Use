@@ -6,8 +6,8 @@ from mysql.connector import Error
 try:
     connection = mysql.connector.connect(host='hostname',
                                          database='citibike-1',
-                                         user='eitan',
-                                         password='CitiBike1')
+                                         user='***',
+                                         password='***')
     if connection.is_connected():
         db_Info = connection.get_server_info()
         print("Connected to RDS", db_Info)
